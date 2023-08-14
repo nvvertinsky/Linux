@@ -9,5 +9,6 @@ wget --no-check-certificate “URL”            # Загрузить пакет
 tar -xvf postgresql-14.3.tar.gz              # распаковать архив tar
 cat /etc/passwd                              # посмотреть пользователей
 ssh: ssh user@192.168.1.9					 # Подключение по SSH
+find -name "spreport*"                       # Поиск файла по имени spreport%
 ```
 
