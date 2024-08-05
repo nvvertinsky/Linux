@@ -10,5 +10,6 @@ tar -xvf postgresql-14.3.tar.gz              # распаковать архив
 cat /etc/passwd                              # посмотреть пользователей
 ssh: ssh user@192.168.1.9					 # Подключение по SSH
 find -name "spreport*"                       # Поиск файла по имени spreport%
+nano /etc/ssh/sshd_config                    # Здесь можно настроить вход по паролю
 ```
 
