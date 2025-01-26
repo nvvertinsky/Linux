@@ -12,6 +12,7 @@ ssh user@192.168.1.9                         # Подключение по SSH
 find -name "spreport*"                       # Поиск файла по имени spreport%
 nano /etc/ssh/sshd_config                    # Здесь можно настроить вход по паролю, затем sudo service ssh restart
 systemctl status nginx                       # Проверка статуса сервиса.
+nproc                                        # Кол-во ядер в процессоре
 ```
 
 # Установка программ пакетным менеджером
